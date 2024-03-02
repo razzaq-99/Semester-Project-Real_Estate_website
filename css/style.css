@@ -45,3 +45,43 @@
     background-color:var(--color-dark);
     z-index: 4;
 }
+
+
+/* CAROUSEL IMAGES */
+.banner{
+    position: relative;
+}
+.banner .owl-theme .item{
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+}
+
+.overlay-bg{
+    background-color: var(--color-dark);
+    opacity: .6;
+    z-index: 2;
+}
+.item .container{
+    position: relative;
+    height: 100%;
+}
+.caption {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 3;
+    text-align: center;
+}
+.caption-heading{
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0;
+    color: var(--color-light2);
+    line-height: 1;
+    margin: 10px 0 30px;
+    text-shadow: 0 0 15px #2b2b2b;
+}
+

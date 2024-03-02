@@ -8,3 +8,40 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
 }
+
+/* NAVBAR */
+.navbar {
+    position: absolute!important;
+    width: 100%;
+    z-index: 2;
+}
+.navbar-brand img {
+    max-width: 240px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-link{
+    font-weight: 500;
+    margin: 0 10px;
+    color:var(--color-light2)!important;
+}
+.nav-link:hover{
+    color:var(--color-light)!important;
+}
+.navbar-toggler {
+    border-color: #fff!important;
+}
+.navbar-toggler-icon {
+    padding: 5px 0;
+}
+.navbar-toggler-icon i {
+    color: #fff;
+}
+.fixed {
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    background-color:var(--color-dark);
+    z-index: 4;
+}

@@ -212,3 +212,30 @@ h3, h4, h5, h6{
     background-color:#000;
     opacity: .8;
 }
+.box-image .desc{
+    text-align: center;
+}
+.desc h4, 
+.desc a,
+.desc a:hover{
+    color: #fff;
+}
+.desc h4 {
+    font-weight: 700;
+    margin-bottom:30px;
+}
+.desc a {
+    border:1px solid #fff;
+    padding:10px;
+    border-radius:5px;
+    font-size:.9em;
+}
+.box-image:hover .image {
+    transform: scale(1.1);
+}
+.box-image:hover .shadow {
+    opacity: 0.1;
+}
+.box-image:hover .desc *{
+    text-shadow: 1px 1px 10px #080808;
+}

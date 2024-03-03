@@ -164,3 +164,15 @@ h3, h4, h5, h6{
     text-shadow: 0 0 15px #2b2b2b;
 }
 
+/* WELCOME CONTENT */
+.about-content {
+    padding: 30px 20px;
+}
+.about-content p {
+    line-height: 30px;
+}
+.about-content li {
+    list-style-type: none;
+    position: relative;
+}
+

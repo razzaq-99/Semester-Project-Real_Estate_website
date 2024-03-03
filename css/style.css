@@ -175,4 +175,20 @@ h3, h4, h5, h6{
     list-style-type: none;
     position: relative;
 }
+.about-content li h4{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.about-content li p{
+    font-size: .8em;
+}
+.about-content li i {
+    position: absolute;
+    font-size: 2em;
+    color:var(--color-light);
+}
 
+.about-content li h4,
+.about-content li p {
+    margin-left: 50px;
+}

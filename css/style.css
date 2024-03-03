@@ -192,3 +192,23 @@ h3, h4, h5, h6{
 .about-content li p {
     margin-left: 50px;
 }
+
+/* SERVICES */
+.services .row {
+    margin: 0;
+}
+.services .box-image{
+    height: 600px;
+}
+.box-image{
+    position: relative;
+    overflow: hidden;
+}
+.box-image .image {
+    background-size: cover;
+    background-position: center center;
+}
+.box-image .shadow{
+    background-color:#000;
+    opacity: .8;
+}

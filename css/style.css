@@ -164,3 +164,31 @@ h3, h4, h5, h6{
     text-shadow: 0 0 15px #2b2b2b;
 }
 
+/* WELCOME CONTENT */
+.about-content {
+    padding: 30px 20px;
+}
+.about-content p {
+    line-height: 30px;
+}
+.about-content li {
+    list-style-type: none;
+    position: relative;
+}
+.about-content li h4{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.about-content li p{
+    font-size: .8em;
+}
+.about-content li i {
+    position: absolute;
+    font-size: 2em;
+    color:var(--color-light);
+}
+
+.about-content li h4,
+.about-content li p {
+    margin-left: 50px;
+}

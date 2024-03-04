@@ -239,3 +239,10 @@ h3, h4, h5, h6{
 .box-image:hover .desc *{
     text-shadow: 1px 1px 10px #080808;
 }
+
+
+/* PROJECTS */
+.projects .box-image{
+    height: 280px;
+    margin: 0 auto 30px;
+}
